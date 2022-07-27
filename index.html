@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Task add numbers -->
+    <div class="taskMain mt-5">
+      <div class="container">
+        <h3>Bài tập: Thêm số vào mảng</h3>
+        <div class="d-flex justify-content-center">
+          <div class="card w-50">
+            <div class="card-header bg-dark text-white text-center">
+              Nhập số
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <p>Số</p>
+                <input type="text" class="form-control" id="num-main" />
+              </div>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-secondary" id="addNum">Thêm</button>
+              <div class="mt-4" id="noti-main"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Task 1 -->
+    <div class="task1 mt-5">
+      <div class="container">
+        <h3>Bài tập 1: Tổng các số dương trong mảng</h3>
+        <div class="d-flex justify-content-center">
+          <div class="card w-50">
+            <div class="card-header bg-dark text-white text-center">
+              Tổng các số dương
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-secondary" id="calc-t1">Tính</button>
+              <div class="mt-4" id="noti-t1"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Task 2 -->
+    <div class="task2 mt-5">
+      <div class="container">
+        <h3>Bài tập 2: Đếm các số dương trong mảng</h3>
+        <div class="d-flex justify-content-center">
+          <div class="card w-50">
+            <div class="card-header bg-dark text-white text-center">
+              Đếm các số dương
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-secondary" id="calc-t2">Đếm</button>
+              <div class="mt-4" id="noti-t2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Task 3 -->
+    <div class="task3 mt-5">
+      <div class="container">
+        <h3>Bài tập 3: Tìm số nhỏ nhất trong mảng</h3>
+        <div class="d-flex justify-content-center">
+          <div class="card w-50">
+            <div class="card-header bg-dark text-white text-center">
+              Tìm số nhỏ nhất
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-secondary" id="calc-t3">Tìm</button>
+              <div class="mt-4" id="noti-t3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Task 4 -->
+    <div class="task4 mt-5">
+      <div class="container">
+        <h3>Bài tập 4: Tìm số dương nhỏ nhất trong mảng</h3>
+        <div class="d-flex justify-content-center">
+          <div class="card w-50">
+            <div class="card-header bg-dark text-white text-center">
+              Tìm số dương nhỏ nhất
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-secondary" id="calc-t4">Tìm</button>
+              <div class="mt-4" id="noti-t4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Task 5 -->
+    <div class="task5 mt-5">
+      <div class="container">
+        <h3>Bài tập 5: Tìm số chẵn cuối cùng trong mảng</h3>
+        <div class="d-flex justify-content-center">
+          <div class="card w-50">
+            <div class="card-header bg-dark text-white text-center">
+              Tìm số chẵn cuối cùng
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-secondary" id="calc-t5">Tìm</button>
+              <div class="mt-4" id="noti-t5"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Task 6 -->
+    <div class="task6 mt-5">
+      <div class="container">
+        <h3>Bài tập 6: Đổi vị trí 2 số trong mảng</h3>
+        <div class="d-flex justify-content-center">
+          <div class="card w-50">
+            <div class="card-header bg-dark text-white text-center">
+              Đổi vị trí
+            </div>
+            <div class="card-body">
+              <div class="form-group">
+                <p>Vị trí 1</p>
+                <input type="text" class="form-control" id="pos-1" />
+              </div>
+              <div class="form-group">
+                <p>Vị trí 2</p>
+                <input type="text" class="form-control" id="pos-2" />
+              </div>
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-secondary" id="calc-t6">Đổi</button>
+              <div class="mt-4" id="noti-t6"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Task 7 -->
+    <div class="task7 mt-5">
+      <div class="container">
+        <h3>Bài tập 7: Sắp xếp tăng dần các số trong mảng</h3>
+        <div class="d-flex justify-content-center">
+          <div class="card w-50">
+            <div class="card-header bg-dark text-white text-center">
+              Sắp xếp tăng dần
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-secondary" id="calc-t7">Sắp xếp</button>
+              <div class="mt-4" id="noti-t7"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Task 8 -->
+    <div class="task8 mt-5">
+      <div class="container">
+        <h3>Bài tập 8: Tìm số nguyên tố đầu tiên trong mảng</h3>
+        <div class="d-flex justify-content-center">
+          <div class="card w-50">
+            <div class="card-header bg-dark text-white text-center">
+              Tìm số nguyên tố đầu tiên
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-secondary" id="calc-t8">Tìm</button>
+              <div class="mt-4" id="noti-t8"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Task 9 -->
+    <div class="task9 mt-5">
+      <div class="container">
+        <h3>Bài tập 9: Đếm số nguyên trong mảng</h3>
+        <div class="d-flex justify-content-center">
+          <div class="card w-50">
+            <div class="card-header bg-dark text-white text-center">
+              Đếm số nguyên
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-secondary" id="calc-t9">Đếm</button>
+              <div class="mt-4" id="noti-t9"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Task 10 -->
+    <div class="task10 mt-5">
+      <div class="container">
+        <h3>Bài tập 10: So sánh số lượng số âm và số dương trong mảng</h3>
+        <div class="d-flex justify-content-center">
+          <div class="card w-50">
+            <div class="card-header bg-dark text-white text-center">
+              So sánh số số âm và số dương
+            </div>
+            <div class="card-footer text-center">
+              <button class="btn btn-secondary" id="calc-t10">So sánh</button>
+              <div class="mt-4" id="noti-t10"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- external js file-->
+    <script src="./main.js"></script>
+  </body>
+</html>
